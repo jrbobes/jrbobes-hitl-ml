@@ -50,7 +50,7 @@ def procesarCaso(texto) {
 
 def list = []
 
-def dir = new File("C:/Users/joserbb/OneDrive - Inditex/Desktop/WIP/DT/Datos/Completos")
+def dir = new File("C:/Users/joserbb/Desktop/WIP/DT/Datos/Completos")
 dir.eachFileRecurse (FileType.FILES) { file ->
   list << file
 }
